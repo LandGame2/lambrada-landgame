@@ -101,7 +101,7 @@ export function EnigmaCard({ id, title, question, correctAnswer, curiosityAudioU
                   onClick={showSolution}
                   className="bg-[#f0bd66] hover:bg-[#e6b15a] text-[#333] border-2 border-[#366d4a] font-black uppercase tracking-wider rounded-xl shadow-lg transition-all animate-in zoom-in"
                 >
-                  Soluzione?
+                  <span translate="no" className="notranslate">Soluzione?</span>
                 </Button>
               ) : (
                 <Button 
