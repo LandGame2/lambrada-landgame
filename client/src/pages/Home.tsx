@@ -160,7 +160,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center mb-8">
             <div className="flex items-center justify-center gap-3 w-full">
               <Info className="text-[#366d4a] w-8 h-8 md:w-10 md:h-10" />
-              <h2 className="text-2xl md:text-3xl font-black text-[#366d4a] tracking-tight">Gli Enigmi del Giro</h2>
+              <h2 translate="no" className="text-2xl md:text-3xl font-black text-[#366d4a] tracking-tight notranslate">Gli Enigmi del Giro</h2>
             </div>
             <p className="text-[#b08865] font-bold italic text-sm md:text-base mt-4 px-4 text-center w-full">
               Dopo tre tentativi apparirà un tasto per la soluzione
