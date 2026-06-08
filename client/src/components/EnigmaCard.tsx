@@ -110,7 +110,7 @@ export function EnigmaCard({ id, title, question, correctAnswer, curiosityAudioU
                   disabled={status === 'correct'}
                   className={cn(status === 'correct' && "bg-green-500 text-white hover:bg-green-500 opacity-100")}
                 >
-                  {status === 'correct' ? "CORRETTO" : "Verifica"}
+                  {status === 'correct' ? "CORRETTO" : <span translate="no" className="notranslate">Verifica</span>}
                 </Button>
               )}
             </>
